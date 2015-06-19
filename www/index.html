@@ -36,6 +36,12 @@
         <title>Hello World</title>
     </head>
     <body>
+	  <form action="http://www.example.com/search">
+    <input type="search" id="q" name="q" size=60>
+    <input type="button" value="Click to Speak" onclick="recognition.start()">
+	<br><br>
+	<input type="button" value="Click to Alert" onclick="alerta()">
+  </form>
  <script type="text/javascript">
     var recognition = new SpeechRecognition();
     recognition.onresult = function(event) {
@@ -51,12 +57,7 @@
 	
   </script>
 
-  <form action="http://www.example.com/search">
-    <input type="search" id="q" name="q" size=60>
-    <input type="button" value="Click to Speak" onclick="recognition.start()">
-	<br><br>
-	<input type="button" value="Click to Alert" onclick="alerta()">
-  </form>
+
         <script type="text/javascript" src="cordova.js"></script>
         <!--script type="text/javascript" src="js/index.js"></script-->
     </body>
