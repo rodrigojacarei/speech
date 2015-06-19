@@ -70,8 +70,9 @@
     <!--
         <gap:plugin name="com.phonegap.plugins.barcodescanner" />
 		<gap:plugin name="com.phonegap.plugins.example" version="0.3.3" source="plugins.cordova.io" />
+		<gap:plugin name="com.latin.continuoussr" source="https://github.com/daao87/ContinuousSpeechRecognizer" />
     -->
-	<gap:plugin name="com.latin.continuoussr" source="https://github.com/daao87/ContinuousSpeechRecognizer" />
+	<gap:plugin name="com.rjfun.cordova.plugin.iflyspeech" />
 
     <!-- Define app icon for each platform. -->
     <icon src="icon.png" />
